@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="navbar">
+    <div class="nav-buttons">
+      <button id="btnInicio">Inicio</button>
+      <button id="btnPerfil">Perfil</button>
+      <button id="btnConfig">Configuración</button>
+    </div>
+    <button id="logout" class="logout-btn">Cerrar Sesión</button>
+  </div>
+
+  <!-- Barra lateral oculta -->
+  <div id="sidebar" class="sidebar oculto">
+    <h3 id="tituloRango">Panel</h3>
+    <div id="menuRango"></div>
+  </div>
+
+  <!-- Contenido central -->
+  <div class="main-content">
+    <h1>Bienvenido 🚀</h1>
+    <p>Has iniciado sesión correctamente.</p>
+
+    <div id="contenidoRango"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
